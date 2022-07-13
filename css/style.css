@@ -1,0 +1,23 @@
+/* O muse, o alto ingegno, or m'aiutate;
+o mente che scrivesti ciò ch'io vidi,
+qui si parrà la tua nobilitate */
+
+
+
+
+:root{
+--bg__black: black; 
+
+}
+
+
+
+
+
+.bg__black{
+    background-color: var(--bg__black);
+}
+
+.logo__top_nav{
+    width: 5rem;
+}
