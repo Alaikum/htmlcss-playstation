@@ -3,7 +3,7 @@ o mente che scrivesti ciò ch'io vidi,
 qui si parrà la tua nobilitate */
 
 
-.font {
+.html {
     font-family: 'Roboto', sans-serif;
 
 
@@ -30,6 +30,8 @@ qui si parrà la tua nobilitate */
 
 
 
+/* CSS HEADER  */
+
 .logo__top_nav {
     width: 5rem;
 }
@@ -50,14 +52,78 @@ qui si parrà la tua nobilitate */
     content: "\f106";
 
 }
+
 .btn-outline-success:hover {
     background-color: var(--bg__black);
 }
 
-.nav-item.dropdown>.nav-link{
+.nav-item.dropdown>.nav-link {
     color: black;
 }
 
-.btn.bg__black__light{
+.btn.bg__black__light {
     color: white;
+}
+
+
+
+/* CSS MAIN  */
+
+
+/* SECTION HERO  */
+
+
+.hero {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37.5rem;
+    color: white;
+
+
+}
+
+.jumbo {
+
+    height: 37.5rem;
+}
+
+.jumbo>img {
+    max-width: 16.875rem;
+}
+
+.orange__btn{
+    background-color: #CD3D0F;
+   
+}
+
+@media (min-width:576px) {
+    .jumbo>img {
+        max-width: 18.75rem;
+    }
+
+
+}
+
+@media (min-width:768px) {
+    .jumbo>img {
+        max-width: 25rem;
+    }
+
+
+
+}
+
+@media (min-width:1200px) {
+    .jumbo>img {
+        max-width: 12.5rem;
+    }
+
+    .jumbo {
+        max-width: 21.875rem;
+
+    }
+
+
 }
