@@ -80,13 +80,17 @@ qui si parrà la tua nobilitate */
     background-size: cover;
     height: 37.5rem;
     color: white;
+    position: relative;
 
 
 }
 
 .jumbo {
 
-    height: 37.5rem;
+    
+    position: absolute;
+    bottom: 5px;
+    left: 0;
 }
 
 .jumbo>img {
