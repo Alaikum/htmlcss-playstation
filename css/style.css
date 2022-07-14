@@ -15,7 +15,8 @@ qui si parrà la tua nobilitate */
     --font__roboto: 'Roboto', sans-serif;
 
 }
-img{
+
+img {
     width: 100%;
 }
 
@@ -76,7 +77,8 @@ img{
 /* SECTION HERO  */
 
 
-.hero {
+.hero,
+.take {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -88,29 +90,40 @@ img{
 
 }
 
-.jumbo {
+.jumbo,
+.jumbo__take {
 
-    
+
     position: absolute;
     bottom: 5px;
     left: 0;
 }
 
-.jumbo>img {
+.jumbo>img,
+.jumbo__take>img {
     max-width: 16.875rem;
 }
 
-.orange__btn{
+.orange__btn {
     background-color: #CD3D0F;
-   
+
 }
 
 
 /* CSS SECTION PLAY 5  */
 
-.f_size{
+.f_size {
     font-size: 45%;
 }
+
+
+/* CSS SECTION TAKE TWO  */
+/* vedi anche section hero  */
+
+.take__two>.take {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 
 @media (min-width:576px) {
     .jumbo>img {
