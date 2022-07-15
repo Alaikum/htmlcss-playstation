@@ -12,7 +12,9 @@ qui si parrà la tua nobilitate */
 :root {
     --bg__black: black;
     --bg__black__light: #363636;
+    --bg__dark: #1F1F1F;
     --font__roboto: 'Roboto', sans-serif;
+
 
 }
 
@@ -30,6 +32,14 @@ img {
     background-color: var(--bg__black__light);
 }
 
+.bg__dark{
+    background-color: var(--bg__dark);
+}
+
+
+.text__white{
+    color: white;
+}
 
 
 
@@ -125,8 +135,14 @@ img {
 }
 
 
+/* CSS SECTION NUOVE USCITE  */
+
+
+
 @media (min-width:576px) {
-    .jumbo>img {
+
+    .jumbo>img,
+    .jumbo__take>img {
         max-width: 18.75rem;
     }
 
@@ -134,7 +150,9 @@ img {
 }
 
 @media (min-width:768px) {
-    .jumbo>img {
+
+    .jumbo>img,
+    .jumbo__take>img {
         max-width: 25rem;
     }
 
@@ -143,11 +161,14 @@ img {
 }
 
 @media (min-width:1200px) {
-    .jumbo>img {
+
+    .jumbo>img,
+    .jumbo__take>img {
         max-width: 12.5rem;
     }
 
-    .jumbo {
+    .jumbo,
+    .jumbo__take {
         max-width: 21.875rem;
 
     }
