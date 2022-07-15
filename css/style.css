@@ -13,6 +13,7 @@ qui si parrà la tua nobilitate */
     --bg__black: black;
     --bg__black__light: #363636;
     --bg__dark: #1F1F1F;
+    --bg__grey: #BEBCBB;
     --font__roboto: 'Roboto', sans-serif;
 
 
@@ -34,6 +35,10 @@ img {
 
 .bg__dark{
     background-color: var(--bg__dark);
+}
+
+.bg__grey{
+    background-color: var(--bg__grey);
 }
 
 
@@ -147,6 +152,18 @@ img {
 .title__ps4>.f_size{
     position: relative;
     bottom: 6px;
+}
+
+.fix__ps4{
+    margin-top: 1.5rem;
+}
+
+
+/* SECTION PS PLUS  */
+
+.botton__plus{
+    background-color: #D9DADC;
+    color: #3066E6;
 }
 
 
