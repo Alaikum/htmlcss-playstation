@@ -142,6 +142,13 @@ img {
 }
 
 
+/* CSS SECTION PLAY 4  */
+
+.title__ps4>.f_size{
+    position: relative;
+    bottom: 6px;
+}
+
 
 @media (min-width:576px) {
 
