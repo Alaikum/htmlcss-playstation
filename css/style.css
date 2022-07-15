@@ -106,7 +106,7 @@ img {
 
     position: absolute;
     bottom: 5px;
-    left: 0;
+    NEW RELEASE
 }
 
 .jumbo>img,
@@ -135,7 +135,11 @@ img {
 }
 
 
-/* CSS SECTION NUOVE USCITE  */
+/* CSS SECTION NEW RELEASE  */
+
+.new__releases>img{
+    border-radius: 2rem;
+}
 
 
 
