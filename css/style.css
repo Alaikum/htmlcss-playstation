@@ -3,7 +3,7 @@ o mente che scrivesti ciò ch'io vidi,
 qui si parrà la tua nobilitate */
 
 
-.html {
+html {
     font-family: 'Roboto', sans-serif;
 
 
@@ -14,7 +14,7 @@ qui si parrà la tua nobilitate */
     --bg__black__light: #363636;
     --bg__dark: #1F1F1F;
     --bg__grey: #BEBCBB;
-    --bg_blue:#161C3B; 
+    --bg_blue: #161C3B;
     --font__roboto: 'Roboto', sans-serif;
 
 
@@ -26,6 +26,7 @@ img {
 
 
 
+
 .bg__black {
     background-color: var(--bg__black);
 }
@@ -34,20 +35,20 @@ img {
     background-color: var(--bg__black__light);
 }
 
-.bg__dark{
+.bg__dark {
     background-color: var(--bg__dark);
 }
 
-.bg__grey{
+.bg__grey {
     background-color: var(--bg__grey);
 }
 
-.bg__blue{
+.bg__blue {
     background-color: var(--bg_blue);
 }
 
 
-.text__white{
+.text__white {
     color: white;
 }
 
@@ -116,7 +117,7 @@ img {
 
     position: absolute;
     bottom: 5px;
-    NEW RELEASE
+    
 }
 
 .jumbo>img,
@@ -147,26 +148,26 @@ img {
 
 /* CSS SECTION NEW RELEASE  */
 
-.new__releases>img{
+.new__releases>img {
     border-radius: 2rem;
 }
 
 
 /* CSS SECTION PLAY 4  */
 
-.title__ps4>.f_size{
+.title__ps4>.f_size {
     position: relative;
     bottom: 6px;
 }
 
-.fix__ps4{
+.fix__ps4 {
     margin-top: 1.5rem;
 }
 
 
 /* CSS SECTION PS PLUS  */
 
-.button__plus{
+.button__plus {
     background-color: #D9DADC;
     color: #3066E6;
 }
@@ -176,16 +177,18 @@ img {
 
 /* CSS SECTION NOW  */
 
-.now__figure{
+.now__figure {
     max-width: 17.5rem;
 }
 
-.button__playnow{
+.button__playnow {
     background-color: #F5F5F5;
     color: black;
 
 }
 
+
+/* CSS SECTION SOCIAL  */
 
 @media (min-width:576px) {
 
@@ -194,8 +197,13 @@ img {
         max-width: 18.75rem;
     }
 
-    .now__figure{
+    .now__figure {
         max-width: 19rem;
+    }
+
+    .img__social {
+        max-width: 7.5rem;
+        
     }
 
 }
@@ -206,7 +214,8 @@ img {
     .jumbo__take>img {
         max-width: 25rem;
     }
-    .now__figure{
+
+    .now__figure {
         max-width: 13rem;
     }
 
@@ -226,7 +235,7 @@ img {
 
     }
 
-    .now__figure{
+    .now__figure {
         max-width: 20rem;
     }
 
