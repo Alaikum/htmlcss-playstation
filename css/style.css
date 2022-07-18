@@ -15,6 +15,7 @@ html {
     --bg__dark: #1F1F1F;
     --bg__grey: #BEBCBB;
     --bg_blue: #161C3B;
+    --bg_light_blue: #00439C;
     --font__roboto: 'Roboto', sans-serif;
 
 
@@ -47,9 +48,17 @@ img {
     background-color: var(--bg_blue);
 }
 
+.bg__light_blue{
+    background-color: var(--bg_light_blue);
+}
+
 
 .text__white {
     color: white;
+}
+
+ul{
+    list-style: none;
 }
 
 
@@ -189,6 +198,17 @@ img {
 
 
 /* CSS SECTION SOCIAL  */
+
+
+/* CSS FOOTER  */
+
+.logo__footer{
+    max-width: 7.5rem;
+}
+
+.ul__padding{
+    padding-left: 21px;
+}
 
 @media (min-width:576px) {
 
